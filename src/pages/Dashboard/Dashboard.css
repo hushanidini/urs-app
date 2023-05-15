@@ -1,0 +1,37 @@
+.mainInforCard {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 313px;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+    & .welcomeDetails {
+      color: #abe0db;
+      max-width: 400px;
+      width: 100%;
+      line-height: 34px;
+      padding: 20px 0 0 0;
+      font-size: 14px;
+    }
+  }
+  .mainInforCard::before {
+    display: none;
+    position: absolute;
+    content: '';
+    max-width: 500px;
+    width: 100%;
+    height: 313px;
+    background-size: 100%;
+    right: 0;
+    bottom: -5px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  .mainInforCard h1 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+  }

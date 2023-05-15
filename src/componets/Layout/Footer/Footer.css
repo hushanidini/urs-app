@@ -1,0 +1,26 @@
+.footer_container {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 5%;
+  min-height: 17px;;
+}
+.left-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.right-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.footer_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #606060;
+ 
+}

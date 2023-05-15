@@ -1,0 +1,120 @@
+.page_header_title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem !important;
+  line-height: 39px;
+}
+.page_header_sub_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem !important;
+  line-height: 24px;
+
+  color: #dfdcdc;
+}
+.form_footer_text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem !important;
+  line-height: 17px;
+}
+
+.login_from {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+}
+.login_from h2.card-title {
+  color: #205387 !important;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+.login_from p.card-text {
+  color: #495057;
+  font-size: 16px;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+.signin_from .form-label {
+  font-size: 12px;
+  color: #6c757d;
+  font-weight: 500;
+  margin: 0;
+  padding: 0 0 5px 0;
+}
+.custom_input_lable {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px !important;
+  line-height: 24px;
+
+  color: #000000;
+}
+.custom_input_style {
+  height: 67px;
+  background: #ffffff;
+  border: 2px solid #9b9a9a;
+  border-radius: 5px;
+}
+.custom_input_style:focus {
+  box-shadow: none;
+  border-color: #205387 !important ;
+}
+.custom_input_style:focus + .form-label {
+  color: #205387;
+}
+
+.login_btn {
+  border-radius: 5px;
+  background: #205387;
+  border: 1px solid #205387;
+  color: #fff;
+  width: 100%;
+  display: block;
+  margin-top: 40px;
+  min-height: 51px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.8s ease-in-out;
+}
+.login_btn:hover {
+  background: #205387;
+}
+.login_btn:focus {
+  background: #427cb6;
+  border: 1px solid #427cb6;
+}
+.flex_direction {
+  display: flex;
+  flex-direction: column;
+}
+.white_bg {
+  background: #fff !important;
+  
+}
+.singUp_link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ff9900 !important;
+}
+.singUp_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+  .login_from {
+    padding: 2rem;
+  }
+}
